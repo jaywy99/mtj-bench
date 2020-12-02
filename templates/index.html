@@ -1,0 +1,17 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <title> MTJ Benchmarks</title>
+</head>
+<body>
+    <h1> Welcome to the MTJ Benchmark!!! </h1>
+    <form method="get" action="{{ url_for('static', filename='downloadable.zip')}}">
+        <button type="submit">Download!</button>
+     </form>
+     <h2> Step 1: Download the file and unzip on the Desktop</h2>
+     <img src="{{ url_for('static', filename='Step_1.png')}}"> 
+     <h2> Step 2: go to the unzipped directory, run the benchmarks called benchmark.py</h2>
+     <img src="{{ url_for('static', filename='Step_2.png')}}"> 
+     <h2> Step 3: please wait for the benchmarks to test and enjoy the results and ranking</h2>
+</body>
+</html>

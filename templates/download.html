@@ -1,0 +1,12 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <title> Downloading Database</title>
+</head>
+<body>
+    <h1> Tap the button to download your benchmark database... </h1>
+    <form method="get" action="{{ url_for('static', filename='db.csv')}}">
+        <button type="submit">Download!</button>
+     </form>
+</body>
+</html>
