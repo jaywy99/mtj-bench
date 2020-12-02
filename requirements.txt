@@ -1,0 +1,6 @@
+Flask
+Flask-RESTful
+gunicorn
+flask
+numpy
+pandas
